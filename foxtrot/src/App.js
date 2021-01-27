@@ -26,8 +26,6 @@ function App() {
  }
  const handleSubmit = (e) => {
   e.preventDefault();
-  const name = e.target.name;
-  const value = e.target.value;
 
   if (person.name && isEditting) {
    setPeople(people.map((item) => {

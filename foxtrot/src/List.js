@@ -3,7 +3,10 @@ import { BiTrash } from 'react-icons/bi';
 import { FaEdit } from 'react-icons/fa';
 
 
+
 const List = ({ people, removePerson, editPerson }) => {
+
+
  return (
   <>
    {people.map((persons) => {
